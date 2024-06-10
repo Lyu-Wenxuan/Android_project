@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/button_float"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/floating_window_circle"
+        android:scaleType="fitXY" />
+
+    <!-- 这里可以添加其他的悬浮窗内容，例如文字、按钮等 -->
+
+</FrameLayout>

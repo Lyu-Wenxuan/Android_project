@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 底部背景圆形 -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#4469D8" />
+            <size
+                android:width="10dp"
+                android:height="10dp" />
+        </shape>
+    </item>
+    <!-- 顶部图标 -->
+    <item
+        android:drawable="@drawable/ic_launcher_foreground"
+        android:gravity="center">
+    </item>
+</layer-list>
