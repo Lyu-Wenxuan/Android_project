@@ -1,0 +1,2 @@
+# Android_project
+移动计算技术课程设计：结合安卓无障碍服务和GPT模型开发了一个自动化工具，名为AutoDroid
