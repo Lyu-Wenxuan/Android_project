@@ -215,7 +215,7 @@ public class MyAccessibilityService extends AccessibilityService {
                 "input text=<text or N/A>. (if you think the\n" +
                 "task has been completed, the id should be -1";
         prompt = prompt.replace("\n", " ");
-        openAIManager.queryGPTV2(prompt, new GPTV2ResponseCallback() {
+        openAIManager.queryGPTV3(prompt, new GPTV2ResponseCallback() {
             @Override
             public void onSuccess(Integer integer, String content) {
 

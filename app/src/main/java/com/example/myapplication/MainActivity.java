@@ -218,4 +218,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, FloatingWindowService.class);
         startService(intent);
     }
+
+    public void ChatClick(View view) {
+        // 点击转到 聊天页面
+        Intent toChat = new Intent(MainActivity.this, GPTV2ChatActivity.class);
+        startActivity(toChat);
+    }
 }

@@ -115,5 +115,18 @@
         app:layout_constraintTop_toBottomOf="@+id/spinner1"
         app:layout_constraintVertical_bias="1.0" />
 
+    <ImageView
+        android:id="@+id/my_image_view3"
+        android:layout_width="72dp"
+        android:layout_height="61dp"
+        android:onClick="ChatClick"
+        android:src="@drawable/chaticon"
+        app:layout_constraintBottom_toBottomOf="@+id/my_image_view1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1"
+        app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
